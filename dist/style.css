@@ -1,21 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Poppins:wght@100;200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 * {
     margin: 0;
+    font-family: "Roboto";
+    color: white;
 }
 
 #navBar {
-    background-color: aqua;
-    height: 10vh;
-    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 0rem;
+    width: max(950px, 60%);
+    margin: auto;
 }
 
 #pageTitle {
     display: flex;
     justify-content: center;
-    width: 100%;
+    font-size: 3rem;
+    font-weight: 200;
+    height: 2.5rem;
+    margin: 1rem;
+    background-color: blue;
 }
 
 #tabsContainer {
     display: flex;
     justify-content: center;
+    width: auto;
+}
+
+#tabsContainer button {
+    font-size: 1.5rem;
+    margin: 1rem 1rem 0rem 1rem;
+    border: none;
+    background: none;
+    padding: 0;
+    height: 2.5rem;
+    font-weight: 200;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    transition: border-bottom 0.2s;
+}
+
+#tabsContainer button:hover {
+    border-bottom: 2px solid orange;
+}
+
+#homeContent {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/restaurantBackground.jpg");
+    height: 80vh;
+    width: auto;
+    padding-top: 40%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+#homeContent header {
+    font-size: 3rem;
+    font-weight: 300;
+    padding-left: 10%;
+}
+
+#homeContent p {
+    font-size: 1.5rem;
+    width: 70%;
+    padding-top: 2rem;
+    padding-left: 10%;
+}
+
+footer {
+    background-color: rgb(165, 165, 165);
+    height: 10vh;
     width: auto;
 }
