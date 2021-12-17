@@ -1,1 +1,1 @@
-alert("it worked");
+(()=>{"use strict";!function(){const e=document.createElement("p");e.id="header",e.innerText="This is new.",document.querySelector("#content").append(e)}()})();

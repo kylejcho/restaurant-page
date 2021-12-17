@@ -1,1 +1,3 @@
-alert('it worked');
+import pageLoad from "./pageLoad";
+
+pageLoad();
