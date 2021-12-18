@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Poppins:wght@100;200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
     margin: 0;
@@ -94,15 +94,37 @@
 }
 
 
+
+
 #menuContentContainer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/restaurantBackground.jpg");
-    width: auto;
-    height: 60vh;
-    padding-top: 40vh;
+    height: 75vh;
+    padding-top: 25vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+
+#menu {
+    width: max(950px, 60%);
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.924);
+    margin: auto;
+}
+
+#menuHeader {
+    font-family: "Imperial Script";
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    width: auto;
+    height: 3rem;
+    margin: auto;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+
 
 #contactContentContainer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/restaurantBackground.jpg");
