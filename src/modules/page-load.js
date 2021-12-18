@@ -1,3 +1,5 @@
+import createHomeContent from "./home"
+
 const createNav = () => {
     const nav = document.createElement("nav");
     nav.id = 'navBar';
@@ -30,46 +32,15 @@ const createTabButton = (name, container) => {
     container.append(button);
 }
 
-const createHomeContent = () => {
-    const homeContentContainer = document.createElement("div");
-    homeContentContainer.id = "homeContentContainer";
-    document.querySelector("#content").append(homeContentContainer);
-
-
-    const homeContent = document.createElement("div");
-    homeContent.id = "homeContent";
-    homeContentContainer.append(homeContent);
-
-    const title = document.createElement("header");
-    title.innerText = "EXPERIENCE KYLE'S KITCHEN.";
-    homeContent.append(title);
-    const subTitle = document.createElement("p");
-    subTitle.innerText = "ENJOY FOOD FROM ALL AROUND THE WORLD."
-    homeContent.append(subTitle);
-
-    const homeMenuButton = document.createElement("button");
-    homeMenuButton.id = "homeMenuButton";
-    homeMenuButton.innerText = "SEE MENU";
-    homeContent.append(homeMenuButton);
-
-    const homeAboutButton = document.createElement("button");
-    homeAboutButton.id = "homeAboutButton";
-    homeAboutButton.innerText = "CONTACT";
-    homeContent.append(homeAboutButton);
-}
-
 const createFooter = () => {
     const footer = document.createElement("footer");
     document.querySelector("#content").append(footer);
 }
 
-
-
 function loadPage() {
     createNav();
-    createHomeContent();
+    //createHomeContent();
     createFooter();
 }
-
 
 export default loadPage;
