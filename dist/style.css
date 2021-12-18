@@ -16,8 +16,8 @@
 
 #logo {
     padding-top: 3rem;
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
 }
 
 #tabsContainer {
@@ -89,8 +89,25 @@
     color: orange;
 }
 
-footer {
+
+#menuContentContainer {
+    height: 100vh;
+    width: auto;
     background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(255, 0, 0);
     height: 10vh;
     width: auto;
 }

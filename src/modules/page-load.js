@@ -25,7 +25,7 @@ const createTabButtonContainer = (nav) => {
 
 const createTabButton = (name, container) => {
     const button = document.createElement("button");
-    button.id = name + "Button";
+    button.id = name.toLowerCase() + "Button";
     button.innerText = name.toUpperCase();
     container.append(button);
 }
@@ -39,7 +39,7 @@ const createHomeContent = () => {
     const homeContent = document.createElement("div");
     homeContent.id = "homeContent";
     homeContentContainer.append(homeContent);
-    
+
     const title = document.createElement("header");
     title.innerText = "EXPERIENCE KYLE'S KITCHEN.";
     homeContent.append(title);
