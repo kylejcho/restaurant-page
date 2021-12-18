@@ -6,6 +6,10 @@
     color: white;
 }
 
+#content {
+    background-color: black;
+}
+
 #navBar {
     display: flex;
     justify-content: space-between;
@@ -91,19 +95,27 @@
 
 
 #menuContentContainer {
-    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/restaurantBackground.jpg");
     width: auto;
-    background-color: rgb(0, 0, 0);
+    height: 60vh;
+    padding-top: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #contactContentContainer {
-    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/restaurantBackground.jpg");
     width: auto;
-    background-color: rgb(4, 0, 255);
+    height: 60vh;
+    padding-top: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 footer {
-    background-color: rgb(63, 63, 63);
     height: 10vh;
-    width: auto;
+    width: max(950px, 60%);
+    margin: auto;
 }

@@ -35,6 +35,7 @@ const createTabButton = (name, container) => {
 const createFooter = () => {
     const footer = document.createElement("footer");
     document.querySelector("#content").append(footer);
+    footer.innerText = "HELLO"
 }
 
 function loadPage() {
