@@ -7,10 +7,11 @@ const createNav = () => {
 }
 
 const createHeader = (nav) => {
-    const header = document.createElement("header");
-    header.id = "pageTitle"
-    header.innerText = "KYLE'S KITCHEN";
-    nav.append(header);
+    const image = document.createElement("img");
+    image.src = "./images/logo.png";
+    image.alt = "logo";
+    image.id = "logo";
+    nav.append(image);
 }
 
 const createTabButtonContainer = (nav) => {
@@ -30,15 +31,31 @@ const createTabButton = (name, container) => {
 }
 
 const createHomeContent = () => {
+    const homeContentContainer = document.createElement("div");
+    homeContentContainer.id = "homeContentContainer";
+    document.querySelector("#content").append(homeContentContainer);
+
+
     const homeContent = document.createElement("div");
     homeContent.id = "homeContent";
-    document.querySelector("#content").append(homeContent);
+    homeContentContainer.append(homeContent);
+    
     const title = document.createElement("header");
-    title.innerText = "ENJOY FOOD FROM KYLE'S KITCHEN.";
+    title.innerText = "EXPERIENCE KYLE'S KITCHEN.";
     homeContent.append(title);
     const subTitle = document.createElement("p");
-    subTitle.innerText = "We a great selection of food from all around the world. Enjoy every taste that this earth has to offer!"
+    subTitle.innerText = "ENJOY FOOD FROM ALL AROUND THE WORLD."
     homeContent.append(subTitle);
+
+    const homeMenuButton = document.createElement("button");
+    homeMenuButton.id = "homeMenuButton";
+    homeMenuButton.innerText = "SEE MENU";
+    homeContent.append(homeMenuButton);
+
+    const homeAboutButton = document.createElement("button");
+    homeAboutButton.id = "homeAboutButton";
+    homeAboutButton.innerText = "CONTACT";
+    homeContent.append(homeAboutButton);
 }
 
 const createFooter = () => {

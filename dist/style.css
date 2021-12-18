@@ -14,25 +14,21 @@
     margin: auto;
 }
 
-#pageTitle {
-    display: flex;
-    justify-content: center;
-    font-size: 3rem;
-    font-weight: 200;
-    height: 2.5rem;
-    margin: 1rem;
-    background-color: blue;
+#logo {
+    padding-top: 3rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 #tabsContainer {
+    padding-top: 4rem;
     display: flex;
-    justify-content: center;
     width: auto;
 }
 
 #tabsContainer button {
     font-size: 1.5rem;
-    margin: 1rem 1rem 0rem 1rem;
+    margin: 0 1rem 0 1rem;
     border: none;
     background: none;
     padding: 0;
@@ -46,28 +42,49 @@
     border-bottom: 2px solid orange;
 }
 
-#homeContent {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/restaurantBackground.jpg");
-    height: 80vh;
+#homeContentContainer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/restaurantBackground.jpg");
     width: auto;
-    padding-top: 40%;
+    height: 60vh;
+    padding-top: 40vh;
     background-size: cover;
     background-position: center;
-    height: 100vh;
     background-attachment: fixed;
 }
 
+#homeContent {
+    width: max(950px, 60%);
+    margin: auto;
+}
+
 #homeContent header {
-    font-size: 3rem;
-    font-weight: 300;
-    padding-left: 10%;
+    font-size: 3.5rem;
+    font-weight: 200;
+    margin: auto;
 }
 
 #homeContent p {
-    font-size: 1.5rem;
-    width: 70%;
-    padding-top: 2rem;
-    padding-left: 10%;
+    font-size: 2rem;
+    margin: auto;
+}
+
+#homeContent button {
+    margin-top: 2rem;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 50px;
+    font-size: 1rem;
+}
+
+#homeMenuButton {
+    background-color: orange;
+    margin-right: 1rem;
+    border: none;
+}
+
+#homeAboutButton {
+    background-color: rgba(255, 166, 0, 0);
+    border: 1px solid orange;
 }
 
 footer {
