@@ -74,10 +74,11 @@
     height: 3rem;
     border-radius: 50px;
     font-size: 1rem;
+    font-weight: 400;
 }
 
 #homeMenuButton {
-    background-color: orange;
+    background-color: rgb(209, 136, 0);
     margin-right: 1rem;
     border: none;
 }
@@ -85,10 +86,11 @@
 #homeAboutButton {
     background-color: rgba(255, 166, 0, 0);
     border: 1px solid orange;
+    color: orange;
 }
 
 footer {
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(0, 0, 0);
     height: 10vh;
     width: auto;
 }
