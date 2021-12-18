@@ -1,13 +1,15 @@
 const createHomeContent = () => {
-    let content = document.querySelector("#content");
-    if (content.childElementCount == 3) {
-        content.children.item(1).replaceWith(homeContentContainer);
-        return;
-    }
 
     const homeContentContainer = document.createElement("div");
     homeContentContainer.id = "homeContentContainer";
-    document.querySelector("#content").append(homeContentContainer);
+    
+    let content = document.querySelector("#content");
+    if (content.childElementCount == 3) {
+        content.children.item(1).replaceWith(homeContentContainer);
+    } else {
+        document.querySelector("#content").append(homeContentContainer);
+    }
+    
 
 
     const homeContent = document.createElement("div");

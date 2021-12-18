@@ -39,7 +39,7 @@ const createFooter = () => {
 
 function loadPage() {
     createNav();
-    //createHomeContent();
+    createHomeContent();
     createFooter();
 }
 
