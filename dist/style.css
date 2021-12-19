@@ -108,7 +108,7 @@
 #menu {
     width: max(950px, 60%);
     height: 90%;
-    background: linear-gradient(31deg, rgba(0, 0, 0, 0.842) 85%,  rgb(200, 130, 49) 15%);
+    background: linear-gradient(31deg, rgba(0, 0, 0, 0.842) 85%,  rgba(200, 129, 49, 0.603) 15%);
     border-radius: 5px;
     margin: auto;
     padding: 20px;
@@ -193,8 +193,8 @@
 #contactContentContainer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/restaurantBackground.jpg");
     width: auto;
-    height: 75vh;
-    padding-top: 25vh;
+    height: 80vh;
+    padding-top: 20vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -204,8 +204,14 @@
     
     width: max(950px, 60%);
     height: 90%;
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(31deg, rgba(255, 255, 255, 0.842) 85%,  rgb(223, 135, 35) 15%);
+    border-radius: 5px;
     margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: orange solid 1px
 }
 
 #contactHeader {
