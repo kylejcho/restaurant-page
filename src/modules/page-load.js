@@ -6,6 +6,7 @@ const createNav = () => {
     document.querySelector("#content").append(nav);
     createHeader(nav);
     createTabButtonContainer(nav);
+    
 }
 
 const createHeader = (nav) => {
@@ -30,6 +31,8 @@ const createTabButton = (name, container) => {
     button.id = name.toLowerCase() + "Button";
     button.innerText = name.toUpperCase();
     container.append(button);
+    const homeTab = document.querySelector('#homeButton');
+    homeTab.classList.add('active')
 }
 
 const createFooter = () => {
