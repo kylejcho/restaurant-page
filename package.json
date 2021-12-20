@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/kylejcho/restaurant-page/issues"
   },
-  "homepage": "https://github.com/kylejcho/restaurant-page#readme",
+  "homepage": "https://github.com/kylejcho/restaurant-page",
   "devDependencies": {
     "gh-pages": "^3.2.3",
     "push-dir": "^0.4.1",
