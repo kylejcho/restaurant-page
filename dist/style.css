@@ -22,6 +22,7 @@
     padding-top: 3rem;
     width: 7rem;
     height: 7rem;
+    transform: translateX(-6px);
 }
 
 #tabsContainer {
@@ -32,7 +33,6 @@
 
 #tabsContainer button {
     font-size: 1.5rem;
-    margin: 0 1rem 0 1rem;
     border: none;
     background: none;
     padding: 0;
@@ -40,6 +40,10 @@
     font-weight: 200;
     border-bottom: 2px solid rgba(255, 255, 255, 0);
     transition: border-bottom 0.2s;
+}
+
+#menuButton {
+    margin: 0 2rem 0 2rem;
 }
 
 #tabsContainer button:hover {
@@ -108,14 +112,15 @@
 #menu {
     width: max(950px, 60%);
     height: 90%;
-    background: linear-gradient(31deg, rgba(0, 0, 0, 0.842) 85%,  rgba(200, 129, 49, 0.603) 15%);
+    background: linear-gradient(31deg, rgba(0, 0, 0, 0.842) 85%,  rgba(200, 129, 49, 0.733) 15%);
     border-radius: 5px;
     margin: auto;
-    padding: 20px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     display: grid;
     grid-template-rows: 1fr 3fr 3fr;
     grid-template-columns: 1fr 1fr 1fr;
-    border: orange solid 1px
+    border: orange solid 1px;
 }
 
 #menuHeader {
@@ -207,7 +212,6 @@
     background: linear-gradient(31deg, rgba(255, 255, 255, 0.842) 85%,  rgb(223, 135, 35) 15%);
     border-radius: 5px;
     margin: auto;
-    padding: 20px;
     display: grid;
     grid-template-rows: 1fr 3fr 3fr;
     grid-template-columns: 1fr 1fr 1fr;
