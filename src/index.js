@@ -8,7 +8,8 @@ loadPage();
 
 document.addEventListener('click', (e) => {
     if (e.target.id.includes("Button")) {
-        tabSwitch(e.target.id)
+        tabSwitch(e.target.id);
+        tabHighlight(e);
     }
 })
 
@@ -21,4 +22,11 @@ const tabSwitch = (tab) => {
     } else {
         createHomeContent();
     }
+}
+
+const tabHighlight = (e) => {
+    let children = document.querySelector("#tabsContainer").childNodes
+    children.forEach(link => link.classList.remove('active'));
+
+    e.target.classList.add('active');
 }
