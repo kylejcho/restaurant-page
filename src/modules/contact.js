@@ -12,6 +12,8 @@ const createContactContent = () => {
     header.id = "contactHeader";
     header.innerText = "CONTACT"
     contactContainer.append(header);
+
+    
 }
 
 export default createContactContent;
