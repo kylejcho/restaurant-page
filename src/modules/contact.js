@@ -13,7 +13,20 @@ const createContactContent = () => {
     header.innerText = "CONTACT"
     contactContainer.append(header);
 
-    
+    const contactInfoContainer = document.createElement('div');
+    contactInfoContainer.id = "contactInfoContainer";
+    contactContainer.append(contactInfoContainer);
+
+    const contactMapContainer = document.createElement('div');
+    contactMapContainer.id = "contactMapContainer";
+    contactContainer.append(contactMapContainer);
+
+    for (let i = 0; i < 5; i++) {
+        const div = document.createElement('p');
+        contactInfoContainer.append(div)
+    }   
+
+
 }
 
 export default createContactContent;
