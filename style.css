@@ -50,6 +50,7 @@
 
 #tabsContainer button:hover {
     border-bottom: 2px solid orange;
+    color: white;
 }
 
 #tabsContainer .active {
@@ -97,15 +98,25 @@
     background-color: rgb(209, 136, 0);
     margin-right: 1rem;
     border: none;
+    transition: all 0.2s;
 }
 
-#homeAboutButton {
+#homeMenuButton:hover {
+    background-color: rgba(209, 136, 0, 0.623);
+    margin-right: 1rem;
+}
+
+#homeContactButton {
     background-color: rgba(255, 166, 0, 0);
     border: 1px solid orange;
     color: orange;
+    transition: all 0.2s;
 }
 
-
+#homeContactButton:hover {
+    background-color: rgba(209, 136, 0, 0.116);
+    margin-right: 1rem;
+}
 
 
 #menuContentContainer {
@@ -213,56 +224,137 @@
     background-attachment: fixed;
 }
 
-#contactContainer { 
+
+#contactContainerBackground { 
     width: max(950px, 60%);
-    height: 90%;
-    background: linear-gradient(31deg, rgba(255, 255, 255, 0.842) 85%,  rgb(223, 135, 35) 15%);
+    height: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/contactBackground.jpg");
     border-radius: 5px;
     margin: auto;
+    padding-bottom: 1.5rem;
+    overflow: hidden;
+    padding-bottom: 1.5rem;
+}
+
+#contactContainer { 
+    width: auto;
+    height: 100%;
+    background: linear-gradient(71deg, rgba(255, 255, 255, 0.87) 55%,  rgba(223, 135, 35, 0.397) 45%);
+    border-radius: 5px;
     display: grid;
     grid-template-rows: 1fr 7fr;
     grid-template-columns: 1fr 1fr;
     border: orange solid 2px;
     padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
 }
 
 #contactHeader {
-    color: orange;
+    color: black;
     display: flex;
     align-items: center;
-    width: auto;
+    width: 7rem;
+    padding-bottom: 5px;
+    margin-bottom: 1rem;
     height: 3rem;
-    padding-left: 30px;
+    margin-left: 60px;
+    margin-top: 15px;
     font-size: 3rem;
     font-weight: 600;
-    grid-column: span 3;
+    grid-column: span 1;
+    border-bottom: 8px solid orange;
 }
 
 
 #contactInfoContainer {
-    border: 1px solid black;
     width: auto;
     height: auto;
+    padding: 0 60px 0 60px;
 }
 
-#contactInfoContainer p:nth-child(1) {
-    height: auto;
-    width: auto;
-    content: "hjhgsjkshdfjk";
-    background: red;
-  }
+#contactInfoContainer p{
+    color: black;
+}
+
+#addressHeader {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#address {
+    padding-top: 0.25rem;
+    font-size: 1.25rem;
+}
+
+#phone {
+    padding-top: 1rem;
+    font-size: 1.25rem;
+}
+
+#phone::before {
+    font-weight: 500;
+    content: "Phone: "; 
+}
+
+#email {
+    font-size: 1.25rem;
+}
+
+#email::before {
+    font-weight: 500;
+    content: "Email: ";
+}
+
+
+#hoursContainer {
+    height: 50%;
+    width: 350px;
+    margin-top: 3rem;
+}
+
+#hoursHeader {
+    font-size: 3rem;
+    font-weight: 600;
+    width: 7rem;
+    padding-bottom: 5px;
+    border-bottom: 8px solid orange;
+    margin-bottom: 0.5rem;
+}
+
+#hoursContentContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(197, 197, 197);
+}
+
+#hoursContentContainer p{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
 
 
 
 #contactMapContainer {
-    border: 1px solid black;
     width: auto;
     height: auto;
+    grid-row: span 2;
+
 }
 
+#contactMapContainer p {
+    font-size: 6rem;
+    font-weight: 700;
+    color: rgba(255, 166, 0, 0.376);
+}
 
+#a {
+    padding-left: 2rem;
+}
 
+#b {
+    padding-left: 7rem;
+}
 
 footer {
     height: 10vh;
