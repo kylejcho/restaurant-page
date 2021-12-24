@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     height: 0rem;
-    width: max(950px, 60%);
+    width: max(850px, 60%);
     margin: auto;
 }
 
@@ -70,7 +70,7 @@
 }
 
 #homeContent {
-    width: max(950px, 60%);
+    width: max(850px, 60%);
     margin: auto;
 }
 
@@ -358,6 +358,6 @@
 
 footer {
     height: 10vh;
-    width: max(950px, 60%);
+    width: max(850px, 60%);
     margin: auto;
 }
