@@ -129,7 +129,7 @@
 }
 
 #menu {
-    width: max(950px, 60%);
+    width: max(850px, 60%);
     height: 90%;
     background: linear-gradient(31deg, rgba(0, 0, 0, 0.842) 85%,  rgba(200, 129, 49, 0.733) 15%);
     border-radius: 5px;
@@ -204,7 +204,7 @@
 }
 
 .itemDescription {
-    font-size: 0.7rem;
+    font-size: clamp(10px, 0.7vmax, 0.7rem);
     font-weight: 300;
 }
 
@@ -226,7 +226,7 @@
 
 
 #contactContainerBackground { 
-    width: max(950px, 60%);
+    width: max(850px, 60%);
     height: 80%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/contactBackground.jpg");
     border-radius: 5px;
@@ -343,7 +343,7 @@
 }
 
 #contactMapContainer p {
-    font-size: 6rem;
+    font-size: clamp(40px, 5.5vmax, 6rem);
     font-weight: 700;
     color: rgba(255, 166, 0, 0.376);
 }
@@ -360,4 +360,9 @@ footer {
     height: 10vh;
     width: max(850px, 60%);
     margin: auto;
+}
+
+
+@media all and (max-width: 550px) {
+
 }
