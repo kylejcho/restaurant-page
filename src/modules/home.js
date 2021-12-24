@@ -29,7 +29,7 @@ const createHomeContent = () => {
     homeContent.append(homeMenuButton);
 
     const homeAboutButton = document.createElement("button");
-    homeAboutButton.id = "homeAboutButton";
+    homeAboutButton.id = "homeContactButton";
     homeAboutButton.innerText = "CONTACT";
     homeContent.append(homeAboutButton);
 }
