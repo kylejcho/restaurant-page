@@ -232,7 +232,6 @@
     border-radius: 5px;
     margin: auto;
     padding-bottom: 1.5rem;
-    overflow: hidden;
     padding-bottom: 1.5rem;
 }
 
@@ -339,11 +338,11 @@
     width: auto;
     height: auto;
     grid-row: span 2;
-
+    padding-right: 1rem;
 }
 
 #contactMapContainer p {
-    font-size: clamp(40px, 5.5vmax, 6rem);
+    font-size: clamp(80px, 5.5vmax, 6rem);
     font-weight: 700;
     color: rgba(255, 166, 0, 0.376);
 }
@@ -353,7 +352,7 @@
 }
 
 #b {
-    padding-left: 7rem;
+    padding-left: 5rem;
 }
 
 footer {
@@ -363,6 +362,13 @@ footer {
 }
 
 
-@media all and (max-width: 550px) {
-
+@media all and (max-width: 1550px) {
+    #a {
+        padding-left: 0;
+    }
+    
+    #b {
+        padding-left: 2rem;
+    }
+    
 }
