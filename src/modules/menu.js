@@ -36,9 +36,7 @@ const createMenuContent = () => {
     createMenuItem("appetizer", "Bread", "Sed ut perspiciatis unde omnis iste", "$4.50");
     createMenuItem("appetizer", "Bread", "Sed ut perspiciatis unde omnis iste", "$4.50");
     createMenuItem("appetizer", "Bread", "Sed ut perspiciatis unde omnis iste", "$4.50");
-    createMenuItem("appetizer", "Bread", "Sed ut perspiciatis unde omnis iste", "$4.50");
 
-    createMenuItem("main", "Cheese", "Sed ut perspiciatis unde omnis iste", "$14.50");
     createMenuItem("main", "Cheese", "Sed ut perspiciatis unde omnis iste", "$14.50");
     createMenuItem("main", "Cheese", "Sed ut perspiciatis unde omnis iste", "$14.50");
     createMenuItem("main", "Cheese", "Sed ut perspiciatis unde omnis iste", "$14.50");
@@ -53,7 +51,6 @@ const createMenuContent = () => {
     createMenuItem("drinks", "Water", "Sed ut perspiciatis unde omnis iste", "$14.50");
     createMenuItem("drinks", "Water", "Sed ut perspiciatis unde omnis iste", "$14.50");
 
-    createMenuItem("dessert", "Cake", "Sed ut perspiciatis unde omnis iste", "$14.50");
     createMenuItem("dessert", "Cake", "Sed ut perspiciatis unde omnis iste", "$14.50");
     createMenuItem("dessert", "Cake", "Sed ut perspiciatis unde omnis iste", "$14.50");
     createMenuItem("dessert", "Cake", "Sed ut perspiciatis unde omnis iste", "$14.50");

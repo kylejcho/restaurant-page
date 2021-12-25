@@ -121,8 +121,8 @@
 
 #menuContentContainer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/restaurantBackground.jpg");
-    height: 78vh;
-    padding-top: 22vh;
+    height: max(700px, 78vh);
+    padding-top: max(22vh, 170px);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -130,12 +130,12 @@
 
 #menu {
     width: max(850px, 60%);
-    height: 85%;
+    height: max(85%, 575px);
     background: linear-gradient(31deg, rgba(0, 0, 0, 0.842) 85%,  rgba(200, 129, 49, 0.733) 15%);
     border-radius: 5px;
     margin: auto;
     padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
     display: grid;
     grid-template-rows: 1fr 3fr 3fr;
     grid-template-columns: 1fr 1fr 1fr;
