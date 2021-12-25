@@ -28,32 +28,35 @@ const createMenuContent = () => {
     createMenuColumn("drinks", menu);
     createMenuColumn("dessert", menu);
 
-    createMenuItem("appetizer", "Bread", "Sed ut perspiciatis unde omnis iste", "$4.50");
-    createMenuItem("appetizer", "Bread", "Sed ut perspiciatis unde omnis iste", "$4.50");
-    createMenuItem("appetizer", "Bread", "Sed ut perspiciatis unde omnis iste", "$4.50");
-    createMenuItem("appetizer", "Bread", "Sed ut perspiciatis unde omnis iste", "$4.50");
-    createMenuItem("appetizer", "Bread", "Sed ut perspiciatis unde omnis iste", "$4.50");
-    createMenuItem("appetizer", "Bread", "Sed ut perspiciatis unde omnis iste", "$4.50");
-    createMenuItem("appetizer", "Bread", "Sed ut perspiciatis unde omnis iste", "$4.50");
-    createMenuItem("appetizer", "Bread", "Sed ut perspiciatis unde omnis iste", "$4.50");
+    createMenuItem("appetizer", "Breadsticks", "Sed ut perspiciatis unde omnis iste unde ", "$4.50");
+    createMenuItem("appetizer", "Tacos", "Sed ut perspiciatis unde omnis iste", "$4.50");
+    createMenuItem("appetizer", "Calamari", "Sed ut perspiciatis unde omnis iste", "$4.50");
+    createMenuItem("appetizer", "Spring Roll", "Sed ut perspiciatis unde omnis iste unde ", "$4.50");
+    createMenuItem("appetizer", "Peanuts", "Sed ut perspiciatis unde omnis iste", "$4.50");
+    createMenuItem("appetizer", "An egg", "Sed ut perspiciatis unde omnis iste unde ", "$4.50");
+    createMenuItem("appetizer", "Boiled Denim", "Sed ut perspiciatis unde omnis iste", "$4.50");
+    createMenuItem("appetizer", "Onion Rings", "Sed ut perspiciatis unde omnis iste unde ", "$4.50");
+    createMenuItem("appetizer", "Chicken Nuggets", "Sed ut perspiciatis unde omnis iste", "$4.50");
 
+    createMenuItem("main", "Chicken Caeser Salad", "Sed ut perspiciatis unde omnis iste", "$14.50");
+    createMenuItem("main", "Fried Pork Chops and Gravy", "Sed ut perspiciatis unde omnis iste unde ", "$14.50");
     createMenuItem("main", "Cheese", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("main", "Cheese", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("main", "Cheese", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("main", "Cheese", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("main", "Cheese", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("main", "Cheese", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("main", "Cheese", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("main", "Cheese", "Sed ut perspiciatis unde omnis iste", "$14.50");
+    createMenuItem("main", "Gyro Sandwhich", "Sed ut perspiciatis unde omnis iste unde ", "$14.50");
+    createMenuItem("main", "Spaghetti Aglio E Olio", "Sed ut perspiciatis unde omnis iste", "$14.50");
+    createMenuItem("main", "Kyle's Cheeseburger", "Sed ut perspiciatis unde omnis iste", "$14.50");
+    createMenuItem("main", "BLT Sandwich", "Sed ut perspiciatis unde omnis iste unde ", "$14.50");
+    createMenuItem("main", "Odon Noodles", "Sed ut perspiciatis unde omnis iste", "$14.50");
+    createMenuItem("main", "Turkey Burger", "Sed ut perspiciatis unde omnis iste unde ", "$14.50");
 
-    createMenuItem("drinks", "Water", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("drinks", "Water", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("drinks", "Water", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("drinks", "Water", "Sed ut perspiciatis unde omnis iste", "$14.50");
+    createMenuItem("drinks", "Mango Lassi", "Sed ut perspiciatis unde omnis iste", "$14.50");
+    createMenuItem("drinks", "Red Wine", "Sed ut perspiciatis unde omnis iste unde ", "$14.50");
+    createMenuItem("drinks", "Fancy Juice", "Sed ut perspiciatis unde omnis iste", "$14.50");
+    createMenuItem("drinks", "Soda", "Sed ut perspiciatis unde omnis iste unde ", "$14.50");
 
-    createMenuItem("dessert", "Cake", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("dessert", "Cake", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("dessert", "Cake", "Sed ut perspiciatis unde omnis iste", "$14.50");
+    createMenuItem("dessert", "Double Chocolate Cake", "Sed ut perspiciatis unde omnis iste", "$14.50");
+    createMenuItem("dessert", "Sorbet", "Sed ut perspiciatis unde omnis iste unde ", "$14.50");
+    createMenuItem("dessert", "Ice Cream", "Sed ut perspiciatis unde omnis iste", "$14.50");
+    createMenuItem("dessert", "M&Ms", "Sed ut perspiciatis unde omnis iste unde ", "$14.50");
 
 }
 
