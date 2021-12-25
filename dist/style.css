@@ -217,8 +217,8 @@
 #contactContentContainer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/restaurantBackground.jpg");
     width: auto;
-    height: 78vh;
-    padding-top: 22vh;
+    height: max(530px, 78vh);
+    padding-top: max(22vh, 170px);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
