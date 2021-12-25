@@ -39,14 +39,14 @@ const createMenuContent = () => {
     createMenuItem("appetizer", "Chicken Nuggets", "Sed ut perspiciatis unde omnis iste", "$4.50");
 
     createMenuItem("main", "Chicken Caeser Salad", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("main", "Fried Pork Chops and Gravy", "Sed ut perspiciatis unde omnis iste unde ", "$14.50");
-    createMenuItem("main", "Cheese", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("main", "Gyro Sandwhich", "Sed ut perspiciatis unde omnis iste unde ", "$14.50");
+    createMenuItem("main", "Fried Pork Chops and Gravy", "Sed ut perspiciatis unde omnis", "$14.50");
+    createMenuItem("main", "Cheese Stick", "Sed ut perspiciatis unde", "$14.50");
+    createMenuItem("main", "Gyro Sandwhich", "Sed ut perspiciatis unde omnis iste", "$14.50");
     createMenuItem("main", "Spaghetti Aglio E Olio", "Sed ut perspiciatis unde omnis iste", "$14.50");
     createMenuItem("main", "Kyle's Cheeseburger", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("main", "BLT Sandwich", "Sed ut perspiciatis unde omnis iste unde ", "$14.50");
+    createMenuItem("main", "BLT Sandwich", "Sed ut perspiciatis unde omnis", "$14.50");
     createMenuItem("main", "Odon Noodles", "Sed ut perspiciatis unde omnis iste", "$14.50");
-    createMenuItem("main", "Turkey Burger", "Sed ut perspiciatis unde omnis iste unde ", "$14.50");
+    createMenuItem("main", "Turkey Burger", "Sed ut perspiciatis unde", "$14.50");
 
     createMenuItem("drinks", "Mango Lassi", "Sed ut perspiciatis unde omnis iste", "$14.50");
     createMenuItem("drinks", "Red Wine", "Sed ut perspiciatis unde omnis iste unde ", "$14.50");
