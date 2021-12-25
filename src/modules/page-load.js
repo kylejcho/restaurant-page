@@ -46,7 +46,7 @@ const createFooter = () => {
 
     const githubIcon = document.createElement('a');
     githubIcon.className = "fab fa-github";
-    githubIcon.href = "https://github.com/kylejcho"
+    githubIcon.href = "https://github.com/kylejchos"
     footer.append(githubIcon);
 }
 

@@ -19,9 +19,9 @@
 }
 
 #logo {
-    padding-top: 3rem;
-    width: 7rem;
-    height: 7rem;
+    padding-top: 2.5rem;
+    width: 6rem;
+    height: 6rem;
     transform: translateX(-6px);
 }
 
@@ -121,8 +121,8 @@
 
 #menuContentContainer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/restaurantBackground.jpg");
-    height: 80vh;
-    padding-top: 20vh;
+    height: 78vh;
+    padding-top: 22vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -130,7 +130,7 @@
 
 #menu {
     width: max(850px, 60%);
-    height: 90%;
+    height: 85%;
     background: linear-gradient(31deg, rgba(0, 0, 0, 0.842) 85%,  rgba(200, 129, 49, 0.733) 15%);
     border-radius: 5px;
     margin: auto;
@@ -178,7 +178,7 @@
 
 
 .menuTypeHeader {
-    color: orange;
+    color: #ffa500;
     padding-left: 15px;
     font-size: 1.25rem;
     font-weight: 600;
@@ -217,8 +217,8 @@
 #contactContentContainer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/restaurantBackground.jpg");
     width: auto;
-    height: 80vh;
-    padding-top: 20vh;
+    height: 78vh;
+    padding-top: 22vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
