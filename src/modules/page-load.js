@@ -38,6 +38,16 @@ const createTabButton = (name, container) => {
 const createFooter = () => {
     const footer = document.createElement("footer");
     document.querySelector("#content").append(footer);
+
+    const footerName = document.createElement('p');
+    footerName.id = "footerName";
+    footerName.innerText = 'Copyright © 2021 kylejcho';
+    footer.append(footerName);
+
+    const githubIcon = document.createElement('a');
+    githubIcon.className = "fab fa-github";
+    githubIcon.href = "https://github.com/kylejcho"
+    footer.append(githubIcon);
 }
 
 function loadPage() {

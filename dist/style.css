@@ -356,11 +356,23 @@
 }
 
 footer {
-    height: 10vh;
+    height: 7vh;
     width: max(850px, 60%);
     margin: auto;
+    display: flex;
+    align-items: center;
 }
 
+#footerName {
+    color: gray;
+    margin-right: 0.5rem;
+    font-weight: 300;
+}
+
+.fab {
+    color: gray !important;
+    text-decoration: none;
+}
 
 @media all and (max-width: 1550px) {
     #a {
