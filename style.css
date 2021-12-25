@@ -19,9 +19,9 @@
 }
 
 #logo {
-    padding-top: 3rem;
-    width: 7rem;
-    height: 7rem;
+    padding-top: 2.5rem;
+    width: 6rem;
+    height: 6rem;
     transform: translateX(-6px);
 }
 
@@ -121,8 +121,8 @@
 
 #menuContentContainer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/restaurantBackground.jpg");
-    height: 80vh;
-    padding-top: 20vh;
+    height: max(700px, 78vh);
+    padding-top: max(22vh, 170px);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -130,12 +130,12 @@
 
 #menu {
     width: max(850px, 60%);
-    height: 90%;
+    height: max(85%, 575px);
     background: linear-gradient(31deg, rgba(0, 0, 0, 0.842) 85%,  rgba(200, 129, 49, 0.733) 15%);
     border-radius: 5px;
     margin: auto;
     padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
     display: grid;
     grid-template-rows: 1fr 3fr 3fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -178,7 +178,7 @@
 
 
 .menuTypeHeader {
-    color: orange;
+    color: #ffa500;
     padding-left: 15px;
     font-size: 1.25rem;
     font-weight: 600;
@@ -217,8 +217,8 @@
 #contactContentContainer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/restaurantBackground.jpg");
     width: auto;
-    height: 80vh;
-    padding-top: 20vh;
+    height: max(530px, 78vh);
+    padding-top: max(22vh, 170px);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -227,25 +227,26 @@
 
 #contactContainerBackground { 
     width: max(850px, 60%);
-    height: 80%;
+    height: max(500px, 78%);
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./images/contactBackground.jpg");
     border-radius: 5px;
     margin: auto;
-    padding-bottom: 1.5rem;
-    overflow: hidden;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 #contactContainer { 
     width: auto;
-    height: 100%;
+
+    height: max(500px, 100%);
+    
     background: linear-gradient(71deg, rgba(255, 255, 255, 0.87) 55%,  rgba(223, 135, 35, 0.397) 45%);
     border-radius: 5px;
     display: grid;
     grid-template-rows: 1fr 7fr;
     grid-template-columns: 1fr 1fr;
     border: orange solid 2px;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 #contactHeader {
@@ -258,7 +259,7 @@
     height: 3rem;
     margin-left: 60px;
     margin-top: 15px;
-    font-size: 3rem;
+    font-size: clamp(1.9rem, 3.75vmin, 4rem);
     font-weight: 600;
     grid-column: span 1;
     border-bottom: 8px solid orange;
@@ -267,7 +268,7 @@
 
 #contactInfoContainer {
     width: auto;
-    height: auto;
+    height: 100%;
     padding: 0 60px 0 60px;
 }
 
@@ -276,18 +277,18 @@
 }
 
 #addressHeader {
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 2vmin, 2rem);
     font-weight: 600;
 }
 
 #address {
     padding-top: 0.25rem;
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 2vmin, 2rem);
 }
 
 #phone {
     padding-top: 1rem;
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 2vmin, 2rem);
 }
 
 #phone::before {
@@ -296,7 +297,7 @@
 }
 
 #email {
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 2vmin, 2rem);
 }
 
 #email::before {
@@ -307,12 +308,12 @@
 
 #hoursContainer {
     height: 50%;
-    width: 350px;
-    margin-top: 3rem;
+    width: 100%;
+    margin-top: clamp(0.5rem, 4vmin, 3rem)
 }
 
 #hoursHeader {
-    font-size: 3rem;
+    font-size: clamp(1.9rem, 3.75vmin, 4rem);
     font-weight: 600;
     width: 7rem;
     padding-bottom: 5px;
@@ -329,7 +330,7 @@
 }
 
 #hoursContentContainer p{
-    font-size: 1.1rem;
+    font-size: clamp(1rem, 1.9vmin, 2rem);
     font-weight: 400;
 }
 
@@ -339,11 +340,11 @@
     width: auto;
     height: auto;
     grid-row: span 2;
-
+    padding-right: 1rem;
 }
 
 #contactMapContainer p {
-    font-size: clamp(40px, 5.5vmax, 6rem);
+    font-size: clamp(4.5rem, 9vmin, 6rem);
     font-weight: 700;
     color: rgba(255, 166, 0, 0.376);
 }
@@ -353,16 +354,35 @@
 }
 
 #b {
-    padding-left: 7rem;
+    padding-left: 5rem;
 }
 
 footer {
-    height: 10vh;
+    height: 7vh;
     width: max(850px, 60%);
     margin: auto;
+    display: flex;
+    align-items: center;
 }
 
+#footerName {
+    color: gray;
+    margin-right: 0.5rem;
+    font-weight: 300;
+}
 
-@media all and (max-width: 550px) {
+.fab {
+    color: gray !important;
+    text-decoration: none;
+}
 
+@media all and (max-width: 1500px) {
+    #a {
+        padding-left: 1rem;
+    }
+    
+    #b {
+        padding-left: 3rem;
+    }
+    
 }
