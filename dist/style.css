@@ -396,6 +396,11 @@ footer {
 }
 
 @media all and (max-height: 750px) {
+
+    #menu {
+        height: 430px
+    }
+
     .itemContainer {
         display: grid;
         grid-template-columns: 5fr 1fr;
