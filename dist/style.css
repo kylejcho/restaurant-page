@@ -19,14 +19,14 @@
 }
 
 #logo {
-    padding-top: 2.5rem;
+    padding-top: 2rem;
     width: 6rem;
     height: 6rem;
     transform: translateX(-6px);
 }
 
 #tabsContainer {
-    padding-top: 4rem;
+    padding-top: 3rem;
     display: flex;
     width: auto;
 }
@@ -397,8 +397,21 @@ footer {
 
 @media all and (max-height: 750px) {
 
+    #menuContentContainer {
+        height: 75vh;
+        padding-top: 25vh;
+    }
+    
     #menu {
-        height: 430px
+        height: 430px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #menuHeader {
+        visibility: hidden;
+        position: absolute;
     }
 
     .itemContainer {
