@@ -403,7 +403,7 @@ footer {
     }
     
     #menu {
-        height: 430px;
+        height: 385px;
         padding-top: 1rem;
         padding-bottom: 1rem;
         grid-template-rows: 1fr 1fr;
